@@ -21,3 +21,10 @@ Common Attention mechanisms in relation to NLP can be found in NLP_Attention.ipy
   - Self Attention
   - Bidirectional Attention
   - Multi-head Attentenion
+
+#### 3. Language Classifications
+Some Sentiment classification techniques are explored in this notebook. NLP_Language_Classification_Flair_Transformers
+  - Sentiment Classification with flair
+  - Sentiment Classification with Transformers
+
+  
