@@ -8,12 +8,12 @@ The requirements and Library used can be found in requirements.txt. Hopefully, a
 ### Contents
 #### Pre-processing Techniques
 I will share some common techniques used for NLP pre-processing in the NLP_Preprocessing.ipynb
-  Covered so far: 
-    -  Removing Stopwords
-    -  Tokens
-    -  Stemming
-    -  Lemmatization
-    -  Unicode Normalization
+Covered so far: 
+  -  Removing Stopwords
+  -  Tokens
+  -  Stemming
+  -  Lemmatization
+  -  Unicode Normalization
     
 
 #### Attention
