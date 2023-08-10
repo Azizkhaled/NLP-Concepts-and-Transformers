@@ -8,6 +8,7 @@ The requirements and Library used can be found in requirements.txt. Hopefully, a
 ## Contents
 #### 1. Pre-processing Techniques
 I will share some common techniques used for NLP pre-processing in the [NLP_Preprocessing.ipynb] (https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
+[NLP_Preprocessing]([url](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb))
   -  Removing Stopwords
   -  Tokens
   -  Stemming
