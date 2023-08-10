@@ -5,8 +5,8 @@ This Repo contains some of my notes in relation to Natural Language Processing (
 ### Requirments
 The requirements and Library used can be found in requirements.txt. Hopefully, all notebooks can be run on Google Colab with no problems. 
 
-### Contents
-#### Pre-processing Techniques
+## Contents
+#### 1. Pre-processing Techniques
 I will share some common techniques used for NLP pre-processing in the NLP_Preprocessing.ipynb
   -  Removing Stopwords
   -  Tokens
@@ -15,7 +15,7 @@ I will share some common techniques used for NLP pre-processing in the NLP_Prepr
   -  Unicode Normalization
     
 
-#### Attention
+#### 2. Attention
 Common Attention mechanisms in relation to NLP can be found in NLP_Attention.ipynb
   - Encoder-Decoder Attention (Dot-Product Attention)
   - Self Attention
