@@ -16,7 +16,7 @@ I will share some common techniques used for NLP pre-processing in the NLP_Prepr
     
 
 #### Attention
-Common Attention mechanism in relation to NLP can be found in NLP_Attention.ipynb
+Common Attention mechanisms in relation to NLP can be found in NLP_Attention.ipynb
   - Encoder-Decoder Attention (Dot-Product Attention)
   - Self Attention
   - Bidirectional Attention
