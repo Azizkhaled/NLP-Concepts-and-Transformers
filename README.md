@@ -7,8 +7,8 @@ The requirements and Library used can be found in requirements.txt. Hopefully, a
 
 ## Contents
 #### 1. Pre-processing Techniques
-I will share some common techniques used for NLP pre-processing in the [NLP_Preprocessing.ipynb] (https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
-[NLP_Preprocessing]([url](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb))
+I will share some common techniques used for NLP pre-processing in the 
+[NLP_Preprocessing.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
   -  Removing Stopwords
   -  Tokens
   -  Stemming
@@ -17,14 +17,14 @@ I will share some common techniques used for NLP pre-processing in the [NLP_Prep
     
 
 #### 2. Attention
-Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ipynb] (https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
+Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
   - Encoder-Decoder Attention (Dot-Product Attention)
   - Self Attention
   - Bidirectional Attention
   - Multi-head Attentenion
 
 #### 3. Language Classifications
-Some Sentiment classification techniques are explored in this notebook. [NLP_Language_Classification_Flair_Transformers] (https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers)
+Some Sentiment classification techniques are explored in this notebook. [NLP_Language_Classification_Flair_Transformers](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers)
   - Sentiment Classification with flair
   - Sentiment Classification with Transformers
 
