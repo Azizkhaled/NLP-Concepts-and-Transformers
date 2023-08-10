@@ -8,7 +8,6 @@ The requirements and Library used can be found in requirements.txt. Hopefully, a
 ### Contents
 #### Pre-processing Techniques
 I will share some common techniques used for NLP pre-processing in the NLP_Preprocessing.ipynb
-Covered so far: 
   -  Removing Stopwords
   -  Tokens
   -  Stemming
@@ -17,8 +16,8 @@ Covered so far:
     
 
 #### Attention
-I will talk a bit about the Attention mechanism in relation to NLP in NLP_Attention.ipynb
-  - Encoder-Decoder Attention
+Common Attention mechanism in relation to NLP can be found in NLP_Attention.ipynb
+  - Encoder-Decoder Attention (Dot-Product Attention)
   - Self Attention
   - Bidirectional Attention
   - Multi-head Attentenion
