@@ -35,6 +35,30 @@ Similar to 3, but here we explore other techniques if the sample size is bigger 
   - Long text solution: Window Partitioning
   - Applying window method using Pytorch
 
+## NLP Projects: 
+### 1. Movie Reviews Classification
+In this project we use the Rotten Tomatoes dataset from Kaggle. We try to classify it into one of 5 classes; (negative, somewhat negative, neutral, somewhat positive, and positive). 
+We fine-tune the Bert pre-trained model 
+[Movie_Reviews_Classification_with_TF.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Movie_Reviews_Classification_with_TF.ipynb)
+
+  - Kaggle on Google Colab
+  - Downloading the Rotten Tomatoes movie reviews dataset
+  - Preprocessing the data:
+    
+        - Removing duplicates
+        - Tokenizing
+        - Bert tokenizer
+        - Save the tokens
+        - One hot encoding of the labels
+      
+  - Creating an input pipeline:
+    
+        - Shuffling the data and batch it
+        - Split the dataset
+        - Build and train the model
+        - save the model
+  - Make predictions
+
 
 
   
