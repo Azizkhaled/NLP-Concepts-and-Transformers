@@ -31,5 +31,10 @@ Some Sentiment classification techniques are explored in this notebook. [NLP_Lan
 ### 4. Long Text Classification
 Similar to 3, but here we explore other techniques if the sample size is bigger than the transformer capabilities [Long_text_classification.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Long_text_classification.ipynb)
 
+  - Bert issue
+  - Long text solution: Window Partitioning
+  - Applying window method using Pytorch
+
+
 
   
