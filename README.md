@@ -9,34 +9,47 @@ The requirements and Library used can be found in [requirements.txt](https://git
 ### 1. Pre-processing Techniques
 I will share some common techniques used for NLP pre-processing in the 
 [NLP_Preprocessing.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
-  -  Removing Stopwords
-  -  Tokens
-  -  Stemming
-  -  Lemmatization
-  -  Unicode Normalization
+          
+        -  Removing Stopwords
+        -  Tokens
+        -  Stemming
+        -  Lemmatization
+        -  Unicode Normalization
     
 
 ### 2. Attention
 Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
-  - Encoder-Decoder Attention (Dot-Product Attention)
-  - Self Attention
-  - Bidirectional Attention
-  - Multi-head Attentenion
+
+        - Encoder-Decoder Attention (Dot-Product Attention)
+        - Self Attention
+        - Bidirectional Attention
+        - Multi-head Attentenion
 
 ### 3. Language Classifications
 Some Sentiment classification techniques are explored in this notebook. [NLP_Language_Classification_Flair_Transformers](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers.ipynb)
-  - Sentiment Classification with flair
-  - Sentiment Classification with Transformers
+        
+        - Sentiment Classification with flair
+        - Sentiment Classification with Transformers
 
 ### 4. Long Text Classification
 Similar to 3, but here we explore other techniques if the sample size is bigger than the transformer capabilities [Long_text_classification.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Long_text_classification.ipynb)
-
-  - Bert issue
-  - Long text solution: Window Partitioning
-  - Applying window method using Pytorch
+        
+        - Bert issue
+        - Long text solution: Window Partitioning
+        - Applying window method using Pytorch
 
 ### 5. Named Entity Recognition
 Here, we discover how to perform Entity Recognition with Spacy, and how to extract a single entity of interest. [NER.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER.ipynb)
+We also go through the steps of pulling data from subreddits using Praw, and extracting the organization entities from the top 100 hottest posts in the r\investing subreddits [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER_On_Sub_reddits.ipynb)
+        
+        - Download NER model
+        - Extract Entity
+        - Pulling Data from Reddit
+        - Extract ORGs from data
+        - Function to get the most mentioned ORG
+
+
+  
 
 ## NLP Projects: 
 ### 1. Movie Reviews Classification
