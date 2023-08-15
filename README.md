@@ -35,6 +35,9 @@ Similar to 3, but here we explore other techniques if the sample size is bigger 
   - Long text solution: Window Partitioning
   - Applying window method using Pytorch
 
+### 5. Named Entity Recognition
+Here, we discover how to perform Entity Recognition with Spacy, and how to extract a single entity of interest. [NER.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER.ipynb)
+
 ## NLP Projects: 
 ### 1. Movie Reviews Classification
 In this project we use the Rotten Tomatoes dataset from Kaggle. We try to classify it into one of 5 classes; (negative, somewhat negative, neutral, somewhat positive, and positive). 
