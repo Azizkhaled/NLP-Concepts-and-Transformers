@@ -77,7 +77,7 @@ We fine-tune the Bert pre-trained model
 
 ### 2. Organizational Sentiment from r\investing
 In this project, we go through the top 500 posts in the r\investing, we use the flair sentiment model to classify each post, then extract the organizational entities of each post. Lastly, we get the average sentiment for each organization and rank them from most positive to negative. Data was pulled using the same method in [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER_On_Sub_reddits.ipynb) 
-[Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Sentiment_of_organizations_in_Reddit.ipynb)
+Project : [Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Sentiment_of_organizations_in_Reddit.ipynb)
 
 
   
