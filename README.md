@@ -6,7 +6,7 @@ This Repo contains some of my notes in relation to Natural Language Processing (
 The requirements and Library used can be found in [requirements.txt](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/requirements.txt). Hopefully, all notebooks can be run on Google Colab with no problems. 
 
 ## Contents
-### 1. Pre-processing Techniques
+### 1. [Pre-processing Techniques](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
 I will share some common techniques used for NLP pre-processing in the 
 [NLP_Preprocessing.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
           
@@ -17,7 +17,7 @@ I will share some common techniques used for NLP pre-processing in the
         -  Unicode Normalization
     
 
-### 2. Attention
+### 2. [Attention](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
 Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
 
         - Encoder-Decoder Attention (Dot-Product Attention)
@@ -25,30 +25,36 @@ Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ip
         - Bidirectional Attention
         - Multi-head Attentenion
 
-### 3. Language Classifications
-Some Sentiment classification techniques are explored in this notebook. [NLP_Language_Classification_Flair_Transformers](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers.ipynb)
+### 3. [Language Classifications with Transformers](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers.ipynb)
+Some Sentiment classification techniques are explored in this notebook. 
         
         - Sentiment Classification with flair
         - Sentiment Classification with Transformers
 
-### 4. Long Text Classification
-Similar to 3, but here we explore other techniques if the sample size is bigger than the transformer capabilities [Long_text_classification.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Long_text_classification.ipynb)
+### 4. [Long_text_classification](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Long_text_classification.ipynb)
+Similar to 3, but here we explore other techniques if the sample size is bigger than the transformer capabilities 
         
         - Bert issue
         - Long text solution: Window Partitioning
         - Applying window method using Pytorch
 
-### 5. Named Entity Recognition
-Here, we discover how to perform Entity Recognition with Spacy, and how to extract a single entity of interest. [NER.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER.ipynb)
-We also go through the steps of pulling data from subreddits using Praw, and extracting the organization entities from the top 100 hottest posts in the r\investing subreddits [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER_On_Sub_reddits.ipynb)
-        
+### 5. [Named Entity Recognition](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER.ipynb) and [NER on Subreddits](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER_On_Sub_reddits.ipynb)
+Here, we discover how to perform Entity Recognition with Spacy, and how to extract a single entity of interest. [NER.ipynb]
+We also go through the steps of pulling data from subreddits using Praw, and extracting the organization entities from the top 100 hottest posts in the r\investing subreddits 
+
         - Download NER model
         - Extract Entity
         - Pulling Data from Reddit
         - Extract ORGs from data
         - Function to get the most mentioned ORG
 
+### 6. Question Answering
+Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) application. 
 
+          - Download and Preprocess the data 
+          - Initialize the Bert Transformer model
+          - Prepare the Data pipeline
+          - Make predictions
   
 
 ## NLP Projects: 
