@@ -48,7 +48,7 @@ We also go through the steps of pulling data from subreddits using Praw, and ext
         - Extract ORGs from data
         - Function to get the most mentioned ORG
 
-### 6. Question Answering
+### 6. [Question Answering](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Question_Answering_NLP.ipynb)
 Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) application. 
 
           - Download and Preprocess the data 
