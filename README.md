@@ -1,6 +1,6 @@
 
 # NLP
-This Repo contains some of my notes in relation to Natural Language Processing (NLP). I will try to update it as I proceed with my NLP journey.
+This Repo contains some of my notes in relation to Natural Language Processing (NLP) and Transformer models. I will try to update it as I proceed with my NLP journey.
 
 ### Requirments
 The requirements and Library used can be found in [requirements.txt](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/requirements.txt). Hopefully, all notebooks can be run on Google Colab with no problems. 
