@@ -53,15 +53,25 @@ Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) appli
 
           - Download and Preprocess the data 
           - Initialize the Bert Transformer model
-          - Prepare the Data pipeline
+          - Prepare the Data Pipeline
           - Make predictions
-          - Evaluate with exact match (EM)
+          - Evaluate with an exact match (EM)
           - Evaluate with Rouge 
+
+### 7. [[Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb.ipynb)] 
+In this notebook, we discover how to connect to local Elasticsearch with Haystack. Whats covered:
+
+          - Initializing the connection
+          - Adding data to the cluster
+          - Retrieving Data with TF-IDF
+          - Remove duplicates
+          - Retrieving data with BM25
+          
   
 
 ## NLP Projects: 
 ### 1. Movie Reviews Classification
-In this project we use the Rotten Tomatoes dataset from Kaggle. We try to classify it into one of 5 classes; (negative, somewhat negative, neutral, somewhat positive, and positive). 
+In this project, we use the Rotten Tomatoes dataset from Kaggle. We try to classify it into one of 5 classes; (negative, somewhat negative, neutral, somewhat positive, and positive). 
 We fine-tune the Bert pre-trained model 
 [Movie_Reviews_Classification_with_TF.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Movie_Reviews_Classification_with_TF.ipynb)
 
