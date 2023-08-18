@@ -48,7 +48,9 @@ We also go through the steps of pulling data from subreddits using Praw, and ext
         - Extract ORGs from data
         - Function to get the most mentioned ORG
 
-### 6. [Question Answering.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Question_Answering.ipynb)
+### 6. Question Answering:
+
+#### a. [Question Answering.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Question_Answering.ipynb)
 Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) application. 
 
           - Download and Preprocess the data 
@@ -58,7 +60,7 @@ Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) appli
           - Evaluate with an exact match (EM)
           - Evaluate with Rouge 
 
-### 7. [Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb.ipynb) 
+#### b. [Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb) 
 In this notebook, we discover how to connect to local Elasticsearch with Haystack. Whats covered:
 
           - Initializing the connection
@@ -66,6 +68,14 @@ In this notebook, we discover how to connect to local Elasticsearch with Haystac
           - Retrieving Data with TF-IDF
           - Remove duplicates
           - Retrieving data with BM25
+
+#### c. [Q&A_Full_Reader_Retrieval_model](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Full_Reader_Retrieval_model.ipynb) 
+
+          - Initialize the connection with ElasticSearch
+          - Dense Passage Retriever (DPR)
+          - BERT Reader model
+          - Reader retriever pipeline with Haystack
+          - Running Queries
           
   
 
