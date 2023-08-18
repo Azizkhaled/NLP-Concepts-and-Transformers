@@ -58,7 +58,7 @@ Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) appli
           - Evaluate with an exact match (EM)
           - Evaluate with Rouge 
 
-### 7. [[Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb.ipynb)] 
+### 7. [Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb.ipynb) 
 In this notebook, we discover how to connect to local Elasticsearch with Haystack. Whats covered:
 
           - Initializing the connection
