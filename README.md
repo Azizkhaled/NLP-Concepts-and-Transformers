@@ -6,7 +6,7 @@ This Repo contains some of my notes in relation to Natural Language Processing (
 The requirements and Library used can be found in [requirements.txt](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/requirements.txt). Hopefully, all notebooks can be run on Google Colab with no problems. 
 
 ## Contents
-### 1. [Pre-processing Techniques.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
+### 1. [Pre-processing Techniques.ipynb](https://github.com/Azizkhaled/NLP/blob/main/NLP_Preprocessing.ipynb)
 I will share some common techniques used for NLP pre-processing in the 
 [NLP_Preprocessing.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Preprocessing.ipynb)
           
@@ -17,7 +17,7 @@ I will share some common techniques used for NLP pre-processing in the
         -  Unicode Normalization
     
 
-### 2. [Attention.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
+### 2. [Attention.ipynb](https://github.com/Azizkhaled/NLP/blob/main/NLP_Attention.ipynb)
 Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Attention.ipynb)
 
         - Encoder-Decoder Attention (Dot-Product Attention)
@@ -25,13 +25,13 @@ Common Attention mechanisms in relation to NLP can be found in [NLP_Attention.ip
         - Bidirectional Attention
         - Multi-head Attentenion
 
-### 3. [Language Classifications with Transformers.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NLP_Language_Classification_Flair_Transformers.ipynb)
+### 3. [Language Classifications with Transformers.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Text_Classification/NLP_Language_Classification_Flair_Transformers.ipynb)
 Some Sentiment classification techniques are explored in this notebook. 
         
         - Sentiment Classification with flair
         - Sentiment Classification with Transformers
 
-### 4. [Long_text_classification.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Long_text_classification.ipynb)
+### 4. [Long_text_classification.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Text_Classification/Long_text_classification.ipynb)
 Similar to 3, but here we explore other techniques if the sample size is bigger than the transformer capabilities 
         
         - Bert issue
@@ -50,7 +50,7 @@ We also go through the steps of pulling data from subreddits using Praw, and ext
 
 ### 6. Question Answering:
 
-#### a. [Question Answering.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Question_Answering.ipynb)
+#### a. [Question Answering.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Qustions%20and%20Answers%20models/Question_Answering.ipynb)
 Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) application. 
 
           - Download and Preprocess the data 
@@ -60,7 +60,7 @@ Here we use the SQuAD dataset for an Open Domain Question Answering (ODQA) appli
           - Evaluate with an exact match (EM)
           - Evaluate with Rouge 
 
-#### b. [Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Elasticsearch_Haystack_Retrivers.ipynb) 
+#### b. [Retrievers and ElasticSearch with Haystack.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Qustions%20and%20Answers%20models/Q&A_Elasticsearch_Haystack_Retrivers.ipynb) 
 In this notebook, we discover how to connect to local Elasticsearch with Haystack. Whats covered:
 
           - Initializing the connection
@@ -69,7 +69,7 @@ In this notebook, we discover how to connect to local Elasticsearch with Haystac
           - Remove duplicates
           - Retrieving data with BM25
 
-#### c. [Q&A_Full_Reader_Retrieval_model](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Q&A_Full_Reader_Retrieval_model.ipynb) 
+#### c. [Q&A_Full_Reader_Retrieval_model](https://github.com/Azizkhaled/NLP/tree/main/Qustions%20and%20Answers%20models/Q&A_Full_Reader_Retrieval_model.ipynb) 
 
           - Initialize the connection with ElasticSearch
           - Dense Passage Retriever (DPR)
@@ -83,7 +83,7 @@ In this notebook, we discover how to connect to local Elasticsearch with Haystac
 ### 1. Movie Reviews Classification
 In this project, we use the Rotten Tomatoes dataset from Kaggle. We try to classify it into one of 5 classes; (negative, somewhat negative, neutral, somewhat positive, and positive). 
 We fine-tune the Bert pre-trained model 
-[Movie_Reviews_Classification_with_TF.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Movie_Reviews_Classification_with_TF.ipynb)
+[Movie_Reviews_Classification_with_TF.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Projects/Movie%20Reviews%20Classification/Movie_Reviews_Classification_with_TF.ipynb)
 
   - Kaggle on Google Colab
   - Downloading the Rotten Tomatoes movie reviews dataset
@@ -104,8 +104,8 @@ We fine-tune the Bert pre-trained model
   - Make predictions
 
 ### 2. Organizational Sentiment from r\investing
-In this project, we go through the top 500 posts in the r\investing, we use the flair sentiment model to classify each post, then extract the organizational entities of each post. Lastly, we get the average sentiment for each organization and rank them from most positive to negative. Data was pulled using the same method in [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/NER_On_Sub_reddits.ipynb) 
-Project : [Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkhaled/NLP-with-Aziz/blob/main/Sentiment_of_organizations_in_Reddit.ipynb)
+In this project, we go through the top 500 posts in the r\investing, we use the flair sentiment model to classify each post, then extract the organizational entities of each post. Lastly, we get the average sentiment for each organization and rank them from most positive to negative. Data was pulled using the same method in [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Projects/Organizational%20Sentiment%20from%20r%5Cinvesting/NER_On_Sub_reddits.ipynb) 
+Project : [Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Projects/Organizational%20Sentiment%20from%20r%5Cinvesting/Sentiment_of_organizations_in_Reddit.ipynb)
 
 
   
