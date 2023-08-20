@@ -107,9 +107,21 @@ We fine-tune the Bert pre-trained model
 In this project, we go through the top 500 posts in the r\investing, we use the flair sentiment model to classify each post, then extract the organizational entities of each post. Lastly, we get the average sentiment for each organization and rank them from most positive to negative. Data was pulled using the same method in [NER_On_Sub_reddits.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Projects/Organizational%20Sentiment%20from%20r%5Cinvesting/NER_On_Sub_reddits.ipynb) 
 Project : [Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkhaled/NLP/tree/main/Projects/Organizational%20Sentiment%20from%20r%5Cinvesting/Sentiment_of_organizations_in_Reddit.ipynb)
 
+### 3. Open-Domain QA Project
 
+building an open-domain question answering system. It involves three key components: a database containing UN report data, a retriever utilizing Elasticsearch for document retrieval, and a reader utilizing the bert-base-cased-squad2 model for context comprehension. [QA_project](https://github.com/Azizkhaled/NLP_with_Aziz/Projects/QA_with_bert&ElasticSearch/QA_project.ipynb) 
+
+Project Components:
+  - Prepare the Database: 
+
+        - Setting Up an Index in Elasticsearch
+        - Format the Data
+        - Uploading the formatted data to the Elasticsearch index.
   
-
-
-
+  - Retriever and Reader Setup: 
+       
+        - BM25 retriever
+        - FARMReader with the `bert-base-cased-squad2`
+        - ExtractiveQAPipeline
   
+  - Running Queries
