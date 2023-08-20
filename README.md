@@ -109,7 +109,7 @@ Project : [Sentiment_of_organizations_in_Reddit.ipynb](https://github.com/Azizkh
 
 ### 3. Open-Domain QA Project
 
-building an open-domain question answering system. It involves three key components: a database containing UN report data, a retriever utilizing Elasticsearch for document retrieval, and a reader utilizing the bert-base-cased-squad2 model for context comprehension. [QA_project](https://github.com/Azizkhaled/NLP_with_Aziz/Projects/QA_with_bert&ElasticSearch/QA_project.ipynb) 
+building an open-domain question answering system. It involves three key components: a database containing UN report data, a retriever utilizing Elasticsearch for document retrieval, and a reader utilizing the bert-base-cased-squad2 model for context comprehension. [QA_project](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Projects/QA_with_bert%26ElasticSearch/QA_project.ipynb) 
 
 Project Components:
   - Prepare the Database: 
