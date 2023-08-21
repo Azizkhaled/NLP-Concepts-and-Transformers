@@ -76,7 +76,11 @@ In this notebook, we discover how to connect to local Elasticsearch with Haystac
           - BERT Reader model
           - Reader retriever pipeline with Haystack
           - Running Queries
-          
+
+### 7. (Similarity Search)[https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Similarity_Search.ipynb]
+
+          - Similarity with Transformers and Pytorch
+          - Similarity with Sentence-Transformers
   
 
 ## NLP Projects: 
