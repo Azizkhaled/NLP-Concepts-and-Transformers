@@ -77,7 +77,7 @@ In this notebook, we discover how to connect to local Elasticsearch with Haystac
           - Reader retriever pipeline with Haystack
           - Running Queries
 
-### 7. [Similarity Search](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Similarity_Search.ipynb)
+### 7. [Similarity Search](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Similarity/Similarity_Search.ipynb)
 
           - Similarity with Transformers and Pytorch
           - Similarity with Sentence-Transformers
@@ -132,7 +132,7 @@ Project Components:
 
 ### 4. Fine-Tuning BERT for Masked Language Modeling (MLM) and Next Sentence Prediction (NSP)
 
-This project delves into the fine-tuning of a BERT language model for the tasks of MLM and NSP. Through a step-by-step approach, it explores two distinct training methods: manual PyTorch training and utilizing HuggingFace's Trainer class. [MLM_NSP_Training.ipynb](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Projects/TrainingPretrainedBert/MLM_NSP_Training.ipynb) 
+This project delves into the fine-tuning of a BERT language model for the tasks of MLM and NSP. Through a step-by-step approach, it explores two distinct training methods: manual PyTorch training and utilizing HuggingFace's Trainer class. [MLM_NSP_Training.ipynb](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Projects/Training-Pretrained-Bert-Model/MLM_NSP_Training.ipynb) 
 
 The project contains: 
 
