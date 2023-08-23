@@ -130,14 +130,15 @@ Project Components:
   
   - Running Queries
 
-### 4. Fine-Tuning BERT for Masked Language Modeling
+### 4. Fine-Tuning BERT for Masked Language Modeling (MLM) and Next Sentence Prediction (NSP)
 
-This project delves into the fine-tuning of a BERT language model for the task of Masked Language Modeling (MLM). Through a step-by-step approach, it explores two distinct training methods: manual PyTorch training and utilizing HuggingFace's Trainer class. [MLM_trainin.ipynb](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Projects/TrainingPretrainedBert/MLM_Training.ipynb) 
+This project delves into the fine-tuning of a BERT language model for the tasks of MLM and NSP. Through a step-by-step approach, it explores two distinct training methods: manual PyTorch training and utilizing HuggingFace's Trainer class. [MLM_NSP_Training.ipynb](https://github.com/Azizkhaled/NLP_with_Aziz/blob/main/Projects/TrainingPretrainedBert/MLM_NSP_Training.ipynb) 
 
 The project contains: 
 
         - Data loading, cleaning, and tokenization, 
         - Label tensor creation and random token masking. 
+        - Label tensor creation for NSP
         - Creating a PyTorch dataset 
         - Training using manual PyTorch training
         - Training using HuggingFace's Trainer class 
